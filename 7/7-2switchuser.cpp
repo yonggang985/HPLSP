@@ -1,9 +1,9 @@
 static bool switch_to_user( uid_t user_id, gid_t gp_id )
 {
     if ( ( user_id == 0 ) && ( gp_id == 0 ) )
-    {
+    { 
         return false;
-    }
+    } 
 
     gid_t gid = getgid();
     uid_t uid = getuid();

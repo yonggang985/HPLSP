@@ -2,7 +2,7 @@ bool daemonize()
 {
     pid_t pid = fork();
     if ( pid < 0 )
-    {
+    {  
         return false;
     }
     else if ( pid > 0 )
