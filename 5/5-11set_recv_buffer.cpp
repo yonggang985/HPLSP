@@ -10,7 +10,7 @@
 
 #define BUFFER_SIZE 1024
 
-int main( int argc, char* argv[] )
+int main( int argc, char* argv[] ) 
 {
     if( argc <= 3 )
     {

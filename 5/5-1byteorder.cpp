@@ -1,5 +1,5 @@
 #include <stdio.h>
-void byteorder() 
+void byteorder()  
 {
 	union
 	{
